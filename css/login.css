@@ -32,7 +32,7 @@
 
 .main{
 	width: min(90vw, 500px);
-	height: min(calc(100vh - 120px), 510px);
+	height: min(calc(100vh - 150px), 510px);
 	overflow: hidden;
 	background: #fff;
 	border-radius: 4px;
@@ -99,7 +99,7 @@ input {
 }
 
 #chk:checked~.signup {
-	transform: translateY(max(calc(160px - 100vh), -470px));
+	transform: translateY(max(calc(190px - 100vh), -470px));
 }
 
 #chk:checked~.signup label {
