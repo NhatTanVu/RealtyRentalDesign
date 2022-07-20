@@ -79,7 +79,7 @@ input {
 
 .signup {
 	height: 100%;
-	background: #f7f7f7;
+	background: #e0e0e0;
 	transform: translateY(-96px);
 	transition: .8s ease-in-out;
 	padding: 0 15px;

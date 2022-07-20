@@ -519,7 +519,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   color: rgba(255, 255, 255, 0.6);
 }
 .probootstrap-section.probootstrap-section-lighter {
-  background: #f7f7f7;
+  background: #e0e0e0;
 }
 @media screen and (max-width: 768px) {
   .probootstrap-section {
@@ -928,7 +928,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   }
 }
 .probootstrap-card.probootstrap-person {
-  background: #f7f7f7;
+  background: #e0e0e0;
   text-align: center;
   margin-bottom: 30px;
 }
