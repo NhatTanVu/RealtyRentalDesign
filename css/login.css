@@ -1,4 +1,4 @@
-.main-section{
+.main-section {
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -17,28 +17,34 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: bottom;	
+	background-position: bottom;
 }
 
 .main-section::before {
-    content: '';
+	content: '';
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(255,255,255,.5);
+	background: rgba(255, 255, 255, .5);
 }
 
-.main{
+.main {
 	width: min(90vw, 500px);
-	height: min(calc(100vh - 150px), 510px);
+	height: min(calc(100vh - 180px), 510px);
 	overflow: hidden;
 	background: #fff;
 	border-radius: 4px;
 	box-shadow: 5px 20px 50px #000;
 	z-index: 2;
-	margin-top: 90px;
+	margin-top: 45px;
+}
+
+@media screen and (max-width: 768px) {
+	.main {
+		height: min(calc(100vh - 180px), 470px);
+	}
 }
 
 #chk {
@@ -99,7 +105,13 @@ input {
 }
 
 #chk:checked~.signup {
-	transform: translateY(max(calc(190px - 100vh), -470px));
+	transform: translateY(max(calc(220px - 100vh), -470px));
+}
+
+@media screen and (max-width: 768px) {
+	#chk:checked~.signup {
+		transform: translateY(max(calc(220px - 100vh), -430px));
+	}
 }
 
 #chk:checked~.signup label {
