@@ -120,7 +120,8 @@ gulp.task('browser-sync', async function() {
         /* For a static server you would use this: */
         server: {
             baseDir: './'
-        }
+        },
+        startPath: "/home.html"
     });
 });
 
