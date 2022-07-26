@@ -121,7 +121,7 @@ gulp.task('browser-sync', async function() {
         server: {
             baseDir: './'
         },
-        startPath: "/home.html"
+        startPath: "/homepage.html"
     });
 });
 
