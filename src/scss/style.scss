@@ -1095,7 +1095,7 @@ a {
 			.probootstrap-card-heading {}
 
 			.probootstrap-listing-location {
-				display: table;
+				display: flex;
 				margin-bottom: 20px;
 
 				i,
@@ -1114,6 +1114,9 @@ a {
 					font-weight: 400;
 					font-size: 14px;
 					color: lighten($brand-black, 74%);
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
 				}
 			}
 
