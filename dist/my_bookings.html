@@ -84,10 +84,17 @@
 					</script>
 
 					<ul class="probootstrap-main-nav mb50 filter">
-						<li class="active"><a href="#" onclick="((e) => filterBookings(e, ''))(arguments[0]); return false;">All</a></li>
-						<li><a href="#" onclick="((e) => filterBookings(e, 'pending'))(arguments[0]); return false;">Pending</a></li>
-						<li><a href="#" onclick="((e) => filterBookings(e, 'approved'))(arguments[0]); return false;">Approved</a></li>
-						<li><a href="#" onclick="((e) => filterBookings(e, 'rejected'))(arguments[0]); return false;">Rejected</a></li>
+						<li class="active"><a href="#"
+								onclick="((e) => filterBookings(e, ''))(arguments[0]); return false;">All</a></li>
+						<li><a href="#"
+								onclick="((e) => filterBookings(e, 'pending'))(arguments[0]); return false;">Pending</a>
+						</li>
+						<li><a href="#"
+								onclick="((e) => filterBookings(e, 'approved'))(arguments[0]); return false;">Approved</a>
+						</li>
+						<li><a href="#"
+								onclick="((e) => filterBookings(e, 'rejected'))(arguments[0]); return false;">Rejected</a>
+						</li>
 						<hr />
 					</ul>
 
@@ -293,6 +300,8 @@
 										<div class="content">
 											<span>You booked this property from <a target="_blank"
 													href="profile.html?action=view&id=1">Chanh Vo</a>.</span>
+											<a class="text-danger"
+												href="my_bookings.html?action=withdraw&id=1">Withdraw</a>
 										</div>
 									</li>
 								</ul>
