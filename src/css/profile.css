@@ -2,6 +2,10 @@
     margin-top: 90px;
 }
 
+.probootstrap-card.probootstrap-person {
+    margin-bottom: 0;
+}
+
 @media (min-width: 992px) {
     .row.equal {
         display: flex;

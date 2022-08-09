@@ -985,6 +985,11 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   background: #e0e0e0;
   text-align: center;
 }
+@media screen and (max-width: 992px) {
+  .probootstrap-card.probootstrap-person {
+    margin-bottom: 30px;
+  }
+}
 .probootstrap-card.probootstrap-person .probootstrap-card-media {
   padding-top: 30px;
 }

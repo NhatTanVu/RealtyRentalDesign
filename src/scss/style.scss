@@ -1200,7 +1200,10 @@ a {
 	&.probootstrap-person {
 		background: #e0e0e0;
 		text-align: center;
-		// margin-bottom: 30px;
+
+		@media screen and (max-width: $screen-md) {
+			margin-bottom: 30px;
+		}
 
 		.probootstrap-card-media {
 			padding-top: 30px;
